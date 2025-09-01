@@ -21,7 +21,7 @@ if [ -z "$ZONE_ID" ]; then
 fi
 
 IPV6_ADDRESS=$(
-  wget -qO- -6 https://ifconfig.co/ip
+  wget -qO- https://ifconfig.co/ip
 )
 if [ -z "$IPV6_ADDRESS" ]; then
   exit 1
