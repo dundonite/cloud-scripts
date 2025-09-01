@@ -3,6 +3,8 @@
 # Author: Jari Pennanen
 # Url: https://gist.github.com/Ciantic/4e543f2d878a87a38c25032d5c727bf2
 
+# Can we just use https://pkgs.alpinelinux.org/package/edge/community/x86/cloudflare-ddns ?
+
 TOKEN="$(cat /etc/cloudflare/token)"
 ZONE="$(cat /etc/cloudflare/zone)"
 HOST="$(hostname)"
